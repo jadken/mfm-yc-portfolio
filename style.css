@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans";
+}
+
+/* Stlying for Hero Section */
+.hero_section {
+    display: flex;
+}
+
+.hero_box {
+    width: 50%;
+}
+
+.hero_box_first_half {
+   margin-left: 7%;
+   margin-top: 10%;    
+}
+
+.time_is_up {
+    margin-bottom: 5%;
+    text-transform: uppercase;
+}
+
+.hungry{
+    margin-bottom: 5%;
+    font-size: 4.0rem;
+}
+.tired {
+    width: 80%;
+    color: black;
+}
+
+.food {
+    width: 120%;
+    height: 90vh;
+}
+
+/* Styling for skill section */
+.skill_section {
+padding: 5%;
+background-color: black;
+}
+
+.skill_name {
+    color: grey;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.skills_wrapper {
+    color: white;
+    list-style: none;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.skills_wrapper_list_item {
+    margin-right: 4%;
+    margin-top: 3%;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/* styling for contact section */
+.contact_section {
+    padding: 5%;
+}
+.chop {
+    margin-bottom: 2%;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.contact_header_info {
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+}
+.contact_header_greeting {
+    font-size: 2.5rem;
+    max-width: 40%;
+    font-weight: 700;
+}
+
+.contact_form_wrapper {
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+}
+/* you can use same selector, use comma to seperate */
+.contact_form_input, .contact_form {
+    margin-bottom: 1.5%;
+    border: none;
+    background-color: lightcyan;
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+.contact_form_button {
+    width: max-content;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* Social Icons */
+.social_icons_wrapper {
+    display: flex;
+    align-items: center;
+}
+.social_icons_item {
+    margin-right: 10%;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    background-color: lightgray;
+    align-items: center;
+}
+.footer_text {
+    padding-left: 1rem;
+    border-left: 3px solid #000;
+}
